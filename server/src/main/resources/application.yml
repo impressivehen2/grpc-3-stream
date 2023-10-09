@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: grpc-stock-server
+grpc:
+  server:
+    port: 8000

@@ -1,0 +1,7 @@
+grpc:
+  client:
+    grpc-stock-server:
+      address: static://localhost:8000
+      negotiation-type: plaintext
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
